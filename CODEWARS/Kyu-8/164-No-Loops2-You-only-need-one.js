@@ -11,3 +11,9 @@ function check(a, x) {
 }
 
 console.log(check(["t", "e", "s", "t"], "e"));
+console.log(check(["t", "e", "s", "t"], "e"));
+console.log(check([1, 2, 3, 4], 5));
+console.log(check(["t", "e", "s", "t"], "T"));
+console.log(check(["t", "e", "s", "t"], "t"));
+console.log(check([1, 2, 3, 4], 3));
+console.log(check(["what", "a", "great", "kata"], "kat"));
