@@ -34,3 +34,4 @@ const partlist = (arr) => {
 };
 
 console.log(partlist(["az", "toto", "picaro", "zone", "kiwi"]));
+// [["az", "toto picaro zone kiwi"], ["az toto", "picaro zone kiwi"], ["az toto picaro", "zone kiwi"], ["az toto picaro zone", "kiwi"]]
